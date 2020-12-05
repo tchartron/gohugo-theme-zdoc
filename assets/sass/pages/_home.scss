@@ -12,8 +12,11 @@
 
     &--img {
       margin: 0.5rem;
-      max-height: 12rem;
       z-index: z('landing');
+
+      img {
+        max-height: 12rem;
+      }
     }
 
     &--txt {
